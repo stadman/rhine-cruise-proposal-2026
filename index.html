@@ -65,6 +65,9 @@
   .rec { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(31,95,122,.12); }
   .card ul.clean { list-style: none; padding-left: 2px; }
   .card ul.clean li { margin: 6px 0; }
+  .three { display:flex; gap:16px; flex-wrap:wrap; margin:16px 0; }
+  .three .card { flex:1 1 210px; }
+  .three .card h3 { font-size:15px; }
   footer { margin-top: 40px; border-top: 1px solid var(--line); padding-top: 16px; font-size: 12.5px; color: var(--muted); }
   .fine { font-size: 12.5px; color: var(--muted); }
   .check { color: var(--accent); font-weight: bold; }
@@ -81,7 +84,7 @@
   <p class="meta">For review by Ellen &nbsp;|&nbsp; Based on Scenic&rsquo;s live booking price for Balcony Suite 206; flights via Bristol (easyJet, direct) &amp; home to Cardiff (KLM).</p>
 </header>
 
-<p class="lead">This is a plan built around one promise: <strong>John and Carol are looked after from their own front door in Newport to their own front door again</strong> &mdash; with their luggage carried at every single transfer, and a wheelchair waiting for John at every airport. Below is the recommended cruise, the exact journey, what it includes, and what it costs.</p>
+<p class="lead">This is a plan built around one promise: <strong>John and Carol are looked after from their own front door in Newport to their own front door again</strong> &mdash; with the drivers and the ship&rsquo;s porters handling the cases, and a wheelchair for John at every airport. Below is the recommended cruise, the exact journey, what it includes, and what it costs.</p>
 
 <div class="callout">
   <strong>The travellers, and what they need.</strong>
@@ -111,7 +114,7 @@
 <p class="credit">Ship &amp; suite photographs &copy; Scenic (official). Shown for illustration; the exact suite is confirmed on booking.</p>
 
 <h2>The Journey &mdash; Door to Door</h2>
-<p>Every transfer is assisted and every bag is carried for them. John gets a wheelchair at each airport through free &ldquo;special assistance&rdquo; &mdash; a legally-guaranteed service &mdash; and the chauffeur stays with them until airport staff take over, so there&rsquo;s never a moment alone with the luggage.</p>
+<p>Every transfer is assisted. The drivers load and unload the cases and the ship&rsquo;s porters take them to the cabin; John has a wheelchair at each airport through free &ldquo;special assistance&rdquo; (booked with the airline). The chauffeur stays with them until airport staff take over, so there&rsquo;s no moment stuck alone with the bags.</p>
 <ol class="chain">
   <li><strong>Collected at the Newport front door</strong> by a private car we arrange, and driven to <strong>Bristol Airport</strong> (~45 min), dropping level and step-free at the &ldquo;Drop &amp; Go&rdquo; car park by the terminal. The driver handles the bags and walks them to the assistance point.</li>
   <li><strong>easyJet flight, Bristol &rarr; Basel</strong> (direct, ~1h40). A pre-booked wheelchair (free, by law) takes them and their bags through a <strong>dedicated assistance security lane</strong> to the gate and onto the plane &mdash; no steps, no queues, no outdoor trek.</li>
@@ -121,6 +124,24 @@
   <li><strong>Seven nights down the Rhine</strong> &mdash; Strasbourg &amp; Alsace, Baden-Baden, Heidelberg &amp; the vineyards, Koblenz and the castle-lined Rhine Gorge, Cologne &mdash; then Amsterdam <em>(full day-by-day below)</em>.</li>
   <li><strong>Disembark in Amsterdam;</strong> a short private car takes them from the ship to Schiphol airport, then a <strong>full-service KLM flight to Cardiff</strong> (~1h20), airport assistance again &mdash; and a private car home to their Newport door (~25 min).</li>
 </ol>
+
+<h2>The Whole Trip, Day by Day</h2>
+<p>The entire journey at a glance, with times where we have them (the cruise days each have a fuller day-by-day further down).</p>
+<table class="itin">
+  <thead><tr><th>Date</th><th>Where</th><th>The day</th></tr></thead>
+  <tbody>
+    <tr><td class="day">Mon 10 Aug</td><td><strong>Newport &rarr; Basel</strong></td><td>Private car to Bristol (~45 min); easyJet <strong>18:20 &rarr; 21:00</strong>; taxi to Hotel Krafft; supper on the terrace.</td></tr>
+    <tr><td class="day">Tue 11 Aug</td><td><strong>Basel</strong></td><td>A free day &mdash; the Beyeler museum (tram 6), a 75-min river cruise, dinner at Basel&rsquo;s oldest inn.</td></tr>
+    <tr><td class="day">Wed 12 Aug</td><td><strong>Basel &rarr; aboard</strong></td><td>Morning by the Rhine; <strong>~1pm</strong> taxi to the ship; board Scenic Pearl (<strong>from ~2pm</strong>); welcome reception.</td></tr>
+    <tr><td class="day">Thu 13 Aug</td><td><strong>Strasbourg &amp; Alsace</strong></td><td>Cathedral &amp; Petite France, or an Alsace wine-village tasting.</td></tr>
+    <tr><td class="day">Fri 14 Aug</td><td><strong>Baden-Baden</strong></td><td>Elegant spa town or the thermal baths; evening palace concert with sparkling wine.</td></tr>
+    <tr><td class="day">Sat 15 Aug</td><td><strong>Heidelberg &amp; the Pfalz</strong></td><td>Castle &amp; old town, or a Riesling vineyard tour &amp; tasting.</td></tr>
+    <tr><td class="day">Sun 16 Aug</td><td><strong>Koblenz &amp; the Rhine Gorge</strong></td><td>Koblenz old town; then the castle-lined gorge from the sun deck, wine in hand.</td></tr>
+    <tr><td class="day">Mon 17 Aug</td><td><strong>Cologne</strong></td><td>Old town &amp; cathedral, a short flat walk from the ship.</td></tr>
+    <tr><td class="day">Tue 18 Aug</td><td><strong>Amsterdam</strong></td><td>Arrive; a canal cruise or the Fabrique des Lumi&egrave;res light show.</td></tr>
+    <tr><td class="day">Wed 19 Aug</td><td><strong>Amsterdam &rarr; home</strong></td><td>Disembark after breakfast; taxi to Schiphol; KLM <strong>~16:45 &rarr; 17:05</strong> to Cardiff; car home.</td></tr>
+  </tbody>
+</table>
 
 <h2>The Route</h2>
 <p>Seven nights down the Rhine, Basel to Amsterdam &mdash; through the Rhineland and the Netherlands, with the castle-lined UNESCO gorge at its heart. Numbers mark the day of the cruise.</p>
@@ -225,34 +246,44 @@
 </ul>
 <p class="fine"><strong>Dinner &mdash; we book these in advance:</strong> <strong>Monday</strong> (late arrival), a light supper at the <em>hotel&rsquo;s own Rhine-terrace restaurant</em> &mdash; right downstairs, no travel; <strong>Tuesday</strong>, the special one at <em>Gasthof zum Goldenen Sternen</em>, Basel&rsquo;s oldest inn, on the river (short taxi). &nbsp;<strong>&#9744; Open item:</strong> confirm both bookings.</p>
 
-<h2>What&rsquo;s Included, What We Book, What&rsquo;s Not</h2>
-<p>The most important thing to be clear about &mdash; what Scenic&rsquo;s fare covers, what we arrange around it, and what isn&rsquo;t included. In plain terms:</p>
-<div class="two">
+<h2>Who Sorts What</h2>
+<p>Three simple buckets: what the cruise fare covers, what <em>we</em> arrange around it, and the few things John &amp; Carol handle themselves.</p>
+<div class="three">
   <div class="card rec">
-    <h3>Included in the Scenic fare (&pound;5,790 the two)</h3>
+    <h3>Included in the cruise</h3>
     <ul class="clean">
-      <li><span class="check">&#10003;</span> 7-night cruise, <strong>Balcony Suite 206</strong> (Sun Lounge)</li>
-      <li><span class="check">&#10003;</span> Butler service; all meals aboard</li>
-      <li><span class="check">&#10003;</span> <strong>All drinks all day</strong> (incl. spirits &amp; the wine tastings)</li>
+      <li><span class="check">&#10003;</span> 7-night cruise, <strong>Balcony Suite 206</strong></li>
+      <li><span class="check">&#10003;</span> Butler; all meals aboard</li>
+      <li><span class="check">&#10003;</span> <strong>All drinks all day</strong> (incl. wine tastings)</li>
       <li><span class="check">&#10003;</span> <strong>Every excursion</strong> &mdash; sightseeing &amp; wine</li>
-      <li><span class="check">&#10003;</span> All onboard tips &amp; gratuities</li>
-      <li><span class="check">&#10003;</span> Private palace concert; Wi-Fi; laundry</li>
-      <li><span class="check">&#10003;</span> Up to &pound;400pp toward flights (air credit)</li>
+      <li><span class="check">&#10003;</span> All tips &amp; gratuities</li>
+      <li><span class="check">&#10003;</span> Palace concert; Wi-Fi; laundry</li>
+      <li><span class="check">&#10003;</span> Porters take the cases to the cabin</li>
     </ul>
   </div>
   <div class="card">
-    <h3>What we book around it</h3>
+    <h3>What we&rsquo;ll take care of</h3>
     <ul class="clean">
-      <li>&bull; <strong>Direct flights</strong> &mdash; easyJet Bristol&rarr;Basel out, KLM Amsterdam&rarr;Cardiff home</li>
-      <li>&bull; <strong>Private cars</strong> &mdash; Newport&rarr;Bristol out, Cardiff&rarr;Newport home</li>
-      <li>&bull; <strong>Accessible taxis</strong> &mdash; Basel airport&rarr;hotel, hotel&rarr;ship, ship&rarr;Schiphol</li>
-      <li>&bull; <strong>Two nights in Basel</strong> before boarding (a gentle, tram-based visit)</li>
-      <li>&bull; <strong>Airport special assistance</strong> for John (free; we pre-book)</li>
-      <li><span class="check">&#10003;</span> Travel insurance &mdash; <strong>already covered</strong> (their worldwide annual policy)</li>
+      <li><span class="check">&#10003;</span> Booking the cruise &amp; Balcony Suite</li>
+      <li><span class="check">&#10003;</span> The flights &mdash; easyJet out, KLM home</li>
+      <li><span class="check">&#10003;</span> Hotel Krafft (2 nights) &amp; the Basel plan</li>
+      <li><span class="check">&#10003;</span> The private cars, Newport &harr; airports</li>
+      <li><span class="check">&#10003;</span> All the Basel &amp; transfer taxis</li>
+      <li><span class="check">&#10003;</span> The dinner reservations</li>
+      <li><span class="check">&#10003;</span> Their phone/data, set up before they go</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>What John &amp; Carol do</h3>
+    <ul class="clean">
+      <li>&bull; Book their <strong>airport wheelchair &amp; assistance</strong> with the airline &mdash; a quick call, &ge;48h before each flight (free, guaranteed)</li>
+      <li>&bull; Check their <strong>annual travel insurance</strong> covers the trip &amp; carry the details</li>
+      <li>&bull; Passports in date; pack medicines in hand luggage</li>
+      <li>&bull; Be ready at the front door &mdash; the car does the rest</li>
     </ul>
   </div>
 </div>
-<p class="fine"><strong>Not included / not needed:</strong> Scenic&rsquo;s own flights (we self-book so they get the direct routing on the right days) and their airport&ndash;ship coach (that only applies to Scenic-booked flights, so we arrange the private taxis); no wheelchair to buy (airport assistance provides one). <strong>Why self-book the flights?</strong> Scenic&rsquo;s included air &ldquo;may not be a direct service&rdquo; &mdash; booking the direct easyJet (out) and KLM (home) ourselves guarantees the nonstop routing. We take Scenic&rsquo;s no-fly fare (the &pound;400pp air credit comes off) so the net cost works out about the same. <span class="fine">(easyJet is low-cost, so we pre-book hold bags &amp; seats-together as small add-ons &mdash; see budget.)</span></p>
+<p class="fine"><strong>On the luggage, honestly:</strong> the <em>drivers</em> load and unload the cases, the airline&rsquo;s assistance staff help with them through the airport, and the ship&rsquo;s <em>porters</em> take them to the cabin &mdash; so they&rsquo;re not dragging bags around, though at check-in the cases do get handed over to the airline as normal. <strong>On the flights:</strong> we book the direct easyJet (out) and KLM (home) on Scenic&rsquo;s no-fly fare, so the routing and days are ours to choose; easyJet is low-cost, so hold bags &amp; seats-together are pre-booked as small add-ons.</p>
 
 <h2>The Budget &mdash; all-in for the pair</h2>
 <table>
@@ -265,11 +296,11 @@
     <tr><td>easyJet hold bags + seats-together <span class="fine">(pre-booked, Bristol&rarr;Basel leg)</span></td><td class="num">&pound;50&ndash;140</td></tr>
     <tr><td>Private car, Newport &rarr; Bristol airport <span class="fine">(short hop)</span></td><td class="num">&pound;120&ndash;200</td></tr>
     <tr><td>Private car, Cardiff airport &rarr; Newport</td><td class="num">&pound;95&ndash;220</td></tr>
-    <tr><td>Accessible taxis &mdash; Basel airport&rarr;hotel, hotel&rarr;ship, ship&rarr;Schiphol</td><td class="num">&pound;80&ndash;160</td></tr>
+    <tr><td>Accessible taxis &mdash; Basel airport&rarr;hotel, in-Basel (dinner etc.), hotel&rarr;ship, ship&rarr;Schiphol <span class="fine">(trams are free with the BaselCard)</span></td><td class="num">&pound;100&ndash;200</td></tr>
     <tr><td>Hotel Krafft (Rhine-front boutique), 2 nights before boarding</td><td class="num">&pound;430&ndash;520</td></tr>
     <tr><td>Airport wheelchair assistance for John</td><td class="num">Free</td></tr>
     <tr><td>Travel insurance <span class="fine">(already covered &mdash; they hold a worldwide annual policy)</span></td><td class="num">Covered</td></tr>
-    <tr class="total"><td>Total, the pair &mdash; true door-to-door</td><td class="num">&asymp; &pound;6,500&ndash;7,300</td></tr>
+    <tr class="total"><td>Total, the pair &mdash; true door-to-door</td><td class="num">&asymp; &pound;6,500&ndash;7,400</td></tr>
   </tbody>
 </table>
 <p class="fine">Leaving ample room to step up to a roomier Junior Balcony Suite (BJ) or add extra nights, should you wish.</p>
